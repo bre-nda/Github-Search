@@ -7,12 +7,14 @@ import { Repository } from './repository';
   providedIn: 'root'
 })
 export class ProfileService {
-  user!:User;
-  repository!:Repository;
-
+  private username!: string;
+  private clientid!:'';
+  private clientsecret='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'
 
   constructor(private http:HttpClient) {
    }
 
-   getProfile(){}
+   getProfile(){
+
+   }
 }
