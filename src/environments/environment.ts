@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  clientid!:'',
-  clientsecret!:'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'
+  clientId!:'',
+  clientSecret!:'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'
 
 };
 
