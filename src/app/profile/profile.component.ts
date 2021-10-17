@@ -10,6 +10,7 @@ import { User } from '../user';
 export class ProfileComponent implements OnInit {
   profile: any;
   user!:User;
+  repos!:any;
 
   constructor(public profileService:ProfileService) { 
     this.profileService.getProfile().subscribe((profile:any)=>{
