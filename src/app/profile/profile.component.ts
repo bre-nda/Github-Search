@@ -8,10 +8,10 @@ import { User } from '../user';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  private profile: any;
+  profile: any;
   user!:User;
 
-  constructor(private profileService:ProfileService) { 
+  constructor(public profileService:ProfileService) { 
     this.profileService.getProfile().subscribe((profile:any)=>{
       this.profile = profile
       console.log(profile)
