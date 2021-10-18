@@ -1,0 +1,12 @@
+.card {
+    background-color: rgb(236, 222, 222);
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(241, 112, 133, 0.6), 0 0 20px rgba(241, 112, 133, 0.6), 0 0 40px rgba(241, 112, 133, 0.6);
+    color: white;
+}
+
+#text {
+    color: rgb(5, 5, 5);
+}

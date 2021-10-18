@@ -10,7 +10,7 @@
     <div class="row">
         <div *ngIf="profile">
 
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <img src="{{profile.avatar_url}}" class="rounded-circle img-fluid" alt=" avatar "><br>
             </div>
             <div class="row">
@@ -37,21 +37,21 @@
         <div class="col-md-7">
             <h1 class="mb-5">Repositories</h1>
             <div class="row repo">
-                <div class="mb-4 col-md-6" *ngFor="let repo of repos">
-                    <div class="card text-dark h-100">
-                        <div class="text-muted mt-3">
+                <div class="mb-4 col-md-6 " *ngFor="let repo of repos">
+                    <div class="card text-dark h-100  card">
+                        <div class="text-muted mt-4">
                             <h4><a href="{{repo.html_url}}">{{repo.name}}</a></h4>
                         </div>
                         <div class="card-body">
                             <p class="card-text">{{repo.description}} </p>
                         </div>
-                        <div class="text-muted mb-3">
+                        <div class="text-muted mb-4">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <small>Language: {{repo.language}}</small>
+                                    <small id="text">Language: {{repo.language}}</small>
                                 </div>
                                 <div class="col-md-6">
-                                    <small>Created: {{repo.created_at| dateCount}} days ago</small>
+                                    <small id="text">Created: {{repo.created_at| dateCount}} days ago</small>
                                 </div>
                             </div>
 
