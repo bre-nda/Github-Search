@@ -1,4 +1,12 @@
 <div class="container">
+    <div class="col-md-7">
+        <form action="" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter username" [(ngModel)]="username" name="username" (keyup)="findProfile()">
+            </div>
+        </form>
+        <hr>
+    </div>
     <div class="row">
         <div *ngIf="profile">
 
@@ -43,6 +51,7 @@
                                     <small>Language: {{repo.language}}</small>
                                 </div>
                                 <div class="col-md-6">
+                                    <small>Created: {{repo.created_at| dateCount}} days ago</small>
                                 </div>
                             </div>
 
