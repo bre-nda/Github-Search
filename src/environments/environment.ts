@@ -4,8 +4,12 @@
 
 export const environment = {
   production: false,
-  clientId!:'',
-  clientSecret!:'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'
+  clientId!:'fef164c0b9bc6ba57b91',
+  clientSecret!:'3b0c2b0333cc2844dd53d32207bfedf91a0d8dc9',
+  // apiurl!:'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'
+  // apikey:'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',
+  // clientSecret!:'ghp_opHf582OQTdIrmIdx4Zv0T6oM7kOMi3jGTF'
+
 
 };
 
