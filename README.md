@@ -1,27 +1,38 @@
-# Github
+# Github Search App Project
+This is a Git-Search App, 18/10/2021
+By Brenda Andeso
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+## Description
+This is a git hub search engine that enables a user to see first my profile and be able to search for other github users and be able to see their repositories and number of followers and following and be able to see the whole profile of that person.
 
-## Development server
+## Setup/Installation Requirements
+Have a browser(Google Chrome)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Have visual Studio Code
 
-## Code scaffolding
+Search using the form at the top
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Known Bugs
+There are no known bugs at the moment.
 
-## Build
+## Technologies Used
+Angular CLI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+TypeScript
 
-## Running unit tests
+HTML 5
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+CSS
 
-## Running end-to-end tests
+## Support and contact details
+In case of any issues or questions, feel free to contact me using:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+E-MAIL ADDRESS: brendaandeso4@gmail.com
 
-## Further help
+PHONE:+254743495599
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+Licence under:[MIT LICENCE](https://choosealicense.com/licenses/mit/)
+
+## Copyright
+Copyright (c) {2021} SHALIN RONO
