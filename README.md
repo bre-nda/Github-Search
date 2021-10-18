@@ -1,9 +1,10 @@
-# Github Search App Project
+# Github Search Project
 This is a Github-Search App, 18/10/2021
 By Brenda Kanale.
 
 ## Description
-This is a git hub search engine that enables a user to see first my profile and be able to search for other github users and be able to see their repositories and number of followers and following and be able to see the whole profile of that person.
+This is a Github search project that displays my Github profile that is the avatar,my name, username,bio ,followers,following and repositories.
+Thers is also a search form whereby users may enter their usernames and immediately they will see their Github profile information.
 
 ## Setup/Installation Requirements
 Have a browser(Google Chrome)
@@ -35,4 +36,4 @@ PHONE:+254743495599
 Licence under:[MIT LICENCE](https://choosealicense.com/licenses/mit/)
 
 ## Copyright
-Copyright (c) {2021} SHALIN RONO
+Copyright (c) {2021} BRENDA ANDESO
