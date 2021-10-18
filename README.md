@@ -1,6 +1,6 @@
 # Github Search App Project
-This is a Git-Search App, 18/10/2021
-By Brenda Andeso
+This is a Github-Search App, 18/10/2021
+By Brenda Kanale.
 
 ## Description
 This is a git hub search engine that enables a user to see first my profile and be able to search for other github users and be able to see their repositories and number of followers and following and be able to see the whole profile of that person.
